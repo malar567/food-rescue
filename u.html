@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  
+    body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.login-box{
+    width:380px;
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-size:18px;
+}
+
+span{
+    color:red;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+.password-box{
+    position:relative;
+}
+
+.password-box i{
+    position:absolute;
+    right:15px;
+    top:20px;
+    cursor:pointer;
+    color:gray;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+}
+
+button{
+    width:48%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.login{
+    background:#00b894;
+}
+
+.reset{
+    background:#555;
+}
+
+.forgot{
+    display:block;
+    margin-top:20px;
+    color:#1565c0;
+    text-decoration:none;
+    font-weight:bold;
+}
+</style>
+<body>
+    </body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="login-box">
+
+    <h2>Login</h2>
+
+    <label>Phone Number <span>*</span></label>
+    <input type="text" placeholder="Enter Phone Number">
+
+    <label>Password <span>*</span></label>
+
+    <div class="password-box">
+        <input type="password" placeholder="Enter Password" id="password">
+        <i class="fa-solid fa-eye" id="eye"></i>
+    </div>
+
+    <div class="buttons">
+        <button class="login">Sign In</button>
+        <button class="reset">Reset</button>
+    </div>
+
+    <a href="#" class="forgot">Forgot Password?</a>
+
+</div>
+
+</body></html>
